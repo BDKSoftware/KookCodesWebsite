@@ -1,0 +1,50 @@
+.navContainer {
+    width: 100vw;
+    height: 80px;
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navActive {
+    background-color: #212529;
+}
+
+.navLogoContainer {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+}
+
+.navLogoContainer img {
+    width: 50%;
+    height: 100%;
+}
+
+.navLinks {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Poppins' ;
+}
+
+.navLinks a:hover {
+    color:  #b96beb;
+}
